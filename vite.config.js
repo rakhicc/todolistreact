@@ -1,5 +1,7 @@
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/todolistreact/', // add this property and the value is the name of your repository
   plugins: [react()],
 })
